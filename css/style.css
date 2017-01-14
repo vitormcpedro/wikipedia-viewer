@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+  background-color: #74AFAD;
+}
+
+#random-link {
+  color: #ECECEA;
+}
+
+.searchBox {
+  width: 210px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  position: relative;
+  
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.searchBox .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+  right: 0px;
+  color: #558C89;
+}
+
+.searchBox input { 
+  padding-right: 30px; 
+}
+
+.searchBox input:focus {
+  border:1px solid #558C89;
+  box-shadow: 0 0 10px #558C89;
+}
+
+.search-results {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.spacer {
+  margin-top:10px;
+}
+
+.list-group-item:hover {
+  border:1px solid #D9853B;
+  box-shadow: 0 0 5px #D9853B;
+}
